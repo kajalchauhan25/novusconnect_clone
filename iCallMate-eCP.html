@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>iCallMate-eCP</title>
+    <link rel="stylesheet" href="iSMSMate-sCP.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+         <nav class="navbar navbar-expand-lg  bg-light sticky-top ">
+      <div class="container-fluid distance">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/image/logo (1).png"  alt="logo"/>
+        </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+ <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="product_dropdown nav-item ">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  area-expanded="false" >Products</a>
+  
+   <ul class="dropdown-menu product_item  p-3 container mt-4">
+    <div class="row">
+      <div class="col">
+           <li><h6 class="dropdown-header mb-3 ">Contact Center Solution</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>
+          <li><a class=" text-decoration-none text-warning " href="/iCallMate-cCP.html"><h6>iCallMate-cCP</h6></a></li>
+          <li><i class="nav_icon bi bi-telephone-inbound"></i>
+   <a href="/inbound.html" class="text-decoration-none">Inbound</a></li>
+           <li> <i class="nav_icon bi bi-telephone-outbound"></i>
+   <a href="/outbound.html" class="text-decoration-none">Outbound</a></li>
+           <li> <i class="nav_icon bi bi-voicemail"></i>
+   <a href="" class="text-decoration-none">IVR</a></li>  
+           <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">ACD</a></li>  
+           <li><i class="nav_icon bi bi-person-rolodex"></i>
+   <a href="" class="text-decoration-none">CRM</a></li>  
+           <li> <i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li>
+   </div>
+   <div class="col">
+           <li><h6 class="dropdown-header mb-3">CPaaS Voice</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>  
+           <li><a class="text-decoration-none text-warning" href="/iCallMate-eCP.html"><h6>iCallMate-eCP</h6></a></li>  
+           <li><i class="nav_icon bi bi-telephone-outbound"></i>
+   <a href="" class="text-decoration-none">OBD</a></li>  
+           <li><i class="nav_icon bi bi-voicemail"></i>
+   <a href="" class="text-decoration-none">IVR</a></li>  
+           <li><i class="nav_icon bi bi-telephone-minus"></i>
+   <a href="" class="text-decoration-none">Missed call</a></li>  
+           <li><i class="nav_icon bi bi-hand-index-thumb"></i>
+   <a href="" class="text-decoration-none">Click2Call</a></li>  
+           <li> <i class="nav_icon bi bi-mic"></i>
+   <a href="" class="text-decoration-none">Text to Speech</a></li>  
+           <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div> 
+    <div class="col">
+           <li><h6 class="dropdown-header mb-3">CPaaS SMS</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>  
+           <li><a class="text-decoration-none text-warning" href="/iSMSMate-sCP.html"><h6>iSMSMate-sCP</h6></a></li> 
+           <li> <i class="nav_icon bi bi-envelope"></i> 
+   <a href="" class="text-decoration-none">Bulk SMS</a></li>  
+           <li> <i class="nav_icon bi bi-chat-square-dots"></i>
+   <a href="" class="text-decoration-none">2 Way SMS</a></li>  
+           <li>  <i class="nav_icon bi bi-link"></i>
+   <a href="" class="text-decoration-none">Smart Link</a></li>  
+           <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+   <div class="col">
+          <li><h6 class="dropdown-header mb-3">Unified Communication</h6></li>
+          <li><hr class="dropdown-divider mb-3"></li>  
+          <li><a class="text-decoration-none text-warning" href="/iUnifyMate-uCP.html"><h6>iUnifyMate-uCP</h6></a></li>  
+          <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">Contact Center Solution</a></li>  
+          <li> <i class="nav_icon bi bi-globe2"></i>
+   <a href="" class="text-decoration-none">Social Media</a></li>  
+          <li> <i class="nav_icon bi bi-envelope-paper"></i>
+    <a href="" class="text-decoration-none">E-mail</a></li>  
+          <li><i class="nav_icon bi bi-card-list"></i>
+   <a href="" class="text-decoration-none">Ticketing System</a></li>  
+          <li><i class="nav_icon bi bi-person-bounding-box"></i>
+   <a href="" class="text-decoration-none">Unified Agent</a></li>  
+          <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+    <div class="col">
+          <li><h6 class="dropdown-header mb-3">Cloud Contact Centre</h6></li>
+          <li><hr class="dropdown-divider mb-3"></li>
+          <li><a  class="text-decoration-none text-warning" href="/Cloud Contact Centre.html"><h6>Cloud Contact Centre</h6></a></li>  
+          <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">Contact Center Solution</a></li>  
+          <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+    <div class="col">  
+          <li><h6 class="dropdown-header mb-3">CPaaS WhatsApp</h6></li>
+     <li><hr class="dropdown-divider mb-3"></li>
+     <li><a  class="text-decoration-none text-warning" href="/CPaaS WhatsApp.html"><h6>CPaaS WhatsApp</h6></a></li>
+          <li> <i class="nav_icon bi bi-robot"></i>
+   <a href="" class="text-decoration-none">ChatBot</a></li>  
+     <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li>
+ 
+   </div>
+   </div> 
+  </ul>
+  </li>
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus.html">ContactUs</a>
+            </li>
+            <li class="nav-item phoneno">
+              <button class="btn btn-warning">+919891332200</button>
+            </li>
+          </ul>
+ </div>
+ </div>
+    </nav>
+    <header>
+      <div class="header">
+        <div class="main_content container text-white">
+          <div class="row"><div class=" head_content col"><h2>iCallMate-eCP</h2></div>
+          <div class="col p-5 mt-5 mb-5 text-dark bg-light">
+                <form class="">
+                  <div class="row">
+                    <div class=" form_content col">
+                    <label class="form-label mt-3 mb-3">Name</label>
+                    <input type="text" class="form-control p-2" placeholder="Full Name"></div>
+                    <div class="col"><label class="form-label mt-3 mb-3">Phone</label>  <input type="text" class="form-control p-2" placeholder="Phone"></div>
+                    </div>
+                    <div class="row"> <div class="col"><label class="form-label mt-3 mb-3">Email</label>  <input type="text" class="form-control p-2" placeholder="name@example.com"></div>
+                      <div class="col"><label class="form-label mt-3 mb-3">Company</label>  <input type="text" class="form-control p-2" placeholder="Company Name"></div></div>
+                    
+                       <div class=" mt-3 g-recaptcha" 
+        data-sitekey="6LfLYvwpAAAAAALkSCWTOpkxMh9X2TN-7hdwOTLh"
+        ></div>
+        <button class="btn btn-warning p-2 mt-3 form-control">Request Demo</button>
+                </form>
+                      </div>
+                      
+            </div></div>
+        </div>
+      
+    </header>
+    <main>
+    <div class="container bg-light mt-5 p-5">
+      <div class="row">
+        <div class="col">
+          <img src="/image/icallmate-ecp-cpaas-voice.png" alt="" width="100%" />
+        </div>
+        <div class="col p-5">
+          <h2 class="mt-5">CPaaS</h2>
+          <p class="mt-3 mb-5">
+            The iCallMate CPaaS platform delivers a tightly integrated toolbox
+            of APIs and services that enable the delivery of real-time voice and
+            messaging solutions. User-friendly features like an intuitive
+            interface and turnkey applications allow communications providers to
+            go to market quickly to meet customer needs.
+            <br />
+            Communications Platform as a Service or CPaaS is a cloud-based
+            delivery model that focuses on improving communication channels.
+            It’s a model that allows companies to add various communication
+            features to their existing business applications. Added capabilities
+            like voice, video, and SMS can be deployed through communication
+            APIs (Application Program Interfaces).
+          </p>
+          <button class="btn btn-warning p-3">Request a Demo →</button>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="box col text-center p-5 ">
+          <div class="icon bg-danger bg-opacity-25 text-center p-2"> <i class="bi bi-tags text-danger"></i></div>
+         
+          <h3 class="mt-4">Whitelabeling</h3>
+          <p class="mt-4">
+            Launch a CPaaS brand in just days with documentation and a customer
+            interface.
+          </p>
+        </div>
+        <div class="box col text-center p-5">
+          <div class="icon bg-opacity-25 text-center p-2 bg-info"><i class="bi bi-people text-info"></i></div>
+          <h3 class="mt-4">Reseller Management</h3>
+          <p class="mt-4">
+            Create reseller and sub-reseller on the platform as a self-service.
+          </p>
+        </div>
+        <div class="box col text-center p-5 ">
+         <div class="icon bg-opacity-25 text-center p-2 bg-warning"> <i class="bi bi-send text-warning"></i></div>
+          <h3 class="mt-4">Credit Management</h3>
+          <p class="mt-4">Do credit allocation, reversals on the fly.</p>
+        </div> </div>
+        <div class="row "><div
+          class="box col-lg-6 text-center p-5"
+        >
+          <div class="icon bg-opacity-25 text-center p-2 bg-primary"><i class="bi bi-gear text-primary"></i></div>
+          <h3 class="mt-4">Rich APIs</h3>
+          <p class="mt-4">
+            CPaaS (Communications Platform as a Service) providers sell the
+            necessary platform and code to integrate their SMS APIs into your
+            existing application, unlocking SMS capabilities.
+          </p>
+        </div></div>
+        
+     
+    </div>
+    <div class=" section container bg-light p-5 mt-5">
+      <h2>CPaaS -Voice</h2>
+       <hr class="border border-3 border-warning opacity-75" />
+      <p class="mt-3">
+        iCallMate is an enterprise grade platform providing fast, secure, and
+        reliable Voice services for A2P SMS traffic. This Voice CPaaS Platform
+        provides you with a comprehensive cost-effective solution that has
+        exhaustive features such as the Enterprising Voice Communication to
+        enable operations and scale business.
+        <br />
+        <br>
+        It supports features like Live Traffic Monitor, Dynamic Routing, Rating
+        & Charging, Ready to offer White Label Solution platform, Balance
+        Management, Service Management, huge array of Reports, SMPP based API
+        connection and more.
+      </p>
+    </div>
+    <div class="container mt-5">
+      <div class="text-center">
+        <h4 class="text-primary mb-3">
+          Services being offered on CPaaS Voice Platform
+        </h4>
+        <h2>OBD</h2>
+        <div class="title-divider ">
+       <hr class="border border-3 border-warning opacity-75" />
+        </div>
+       
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="box col p-5">
+          <i class=" icon1  text-success bi bi-telephone-outbound"></i>
+          <h3>Outbound voice calls</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Create OBD campaigns like responsive, non-responsive, surveys, call
+            patching & customer call flow etc. IVR studio can be used to create
+            call flow. Run multiple campaigns simultaneously with different call
+            flows. Monitor, enable, disable, rechurn live campaign using the
+            campaign dashboard.
+          </p>
+        </div>
+        <div class="box col p-5">
+          <i class=" icon1  text-danger bi bi-telephone-inbound"></i>
+          <h3>Inbound call routing 2</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Make your incoming call processing easy with call routing. It works
+            through webhooks. As a call comes in, a webhook is triggered, and
+            the system follows a set of instructions on what to do with the
+            call. In contrast, inbound call center platforms provide all this
+            without any programming.
+            <br />
+            These instructions can be to route the call to a certain recipient
+            so you can customize and streamline how you handle incoming
+            calls—extra helpful in busy seasons.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box col p-5">
+          <i class=" icon1 bi text-success bi-record-circle"></i>
+          <h3>Audio Library</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Users can create their own audio library for the audio prompts to be
+            used when uploading campaigns. Once the audio files are approved by
+            the approver, can be used in the call flows.
+          </p>
+        </div>
+        <div class=" box col p-5">
+          <i class=" icon1 bi bi-people text-info"></i>
+          <h3>Contact Management 4</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Users can create their own contact list to be used in uploading
+            campaigns. Contact groups can be used for running campaigns etc.
+          </p>
+        </div>
+        <div class="box col p-5">
+          <i class=" icon1 bi bi-voicemail text-danger"></i>
+          <h3>IVR Studio 5</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            IVR studio is a self-service call flow creation portal. Users can
+            create call flow using the drag-drop panel for play prompts, getting
+            user inputs, disconnecting calls, APIs etc.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" box col p-5">
+          <i class=" icon1 bi bi-telephone text-success"></i>
+          <h3>Custom Call Flows</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Create complex call flows which include the APIs & database
+            integrations using the customer call flow builder. Add call flow IVR
+            rules as per the need and map those call flows to users for
+            uploading campaigns.
+          </p>
+        </div>
+        <div class="box col p-5">
+          <i class=" icon1 bi bi-gear text-primary text-"></i>
+          <h3>Extensive APIs 7</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            You can take advantage of voice APIs/web panels and embed outgoing
+            calling to your communications stack. It's great for scaling up and
+            down based on your needs, and you can get new phone numbers and
+            calling features almost instantly.
+            <br />
+            Voice APIs for outgoing calls is ideal when you need to adapt
+            quickly to a changing environment and increase or decrease your
+            calling capacity.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" box col p-5">
+          <i class=" icon1 bi bi-card-checklist text-primary"></i>
+          <h3>Priority Queues</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Prioritize call dialing for specific users and campaigns based on
+            OTPs and APIs campaigns. Platform executes campaigns and calls basis
+            the priority queues.
+          </p>
+        </div>
+        <div class="box col  p-5 ">
+          <i class=" icon1 bi bi-receipt text-danger"></i>
+          <h3>Bill Plans</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Create Bill plans & map with resellers & users for Promo & Trans
+            campaigns separately.
+          </p>
+        </div>
+        <div class="box col p-5">
+          <i class=" icon1 bi bi-bar-chart text-success"></i>
+          <h3>Reporting</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Reporting dashboard to generate the analytical summary and detail
+            reports. Scheduling of reports, auto deliver reports in mails & FTP
+            uploading etc.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 bg-light">
+      <div class="row">
+        <div class=" col p-5">
+          <i class=" icon1 bi bi-hand-index text-info"></i>
+          <h3>Click2Call</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Click to Call is a telephony solution feature that lets you dial a
+            customer's number by just clicking on the number, without the need
+            of manually dialing. This cuts manual dialing for Agents and leads
+            to a significant improvement in agent productivity.
+            <br />
+            Empower your team & save agent's calling time with an easy and
+            simple click to call solution of iCallMate platform.
+            <br />
+            Customers can configure Click to call, voice recording & call-back
+            CDR APIs in their CRMs, Mobile APPs etc.
+          </p>
+        </div>
+        <div class="col mt-5 p-5">
+          <img src="/image/centralized-monitoring.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container p-5 mt-3">
+      <div class="col p-5 text-left">
+        <h2>IVR</h2>
+        <hr class="border border-3 border-warning opacity-75" />
+        <p>
+          iCallMate IVR is a programmable, flexible & robust to meet any kind of
+          call navigation requirements like http APIs, database integrations,
+          VoiceXML, call routing, responsive & non-responsive campaign, call
+          patching, Surveys etc. Call flows can be created using the rule-based
+          engine as well as drag-drop based IVR studio.
+        </p>
+      </div>
+      <div class="container p-5">
+        <h2>Campaign Manage</h2>
+       <hr class="border border-3 border-warning opacity-75" />
+        <h5 class="text-info mt-3">Omnichannel, Large Capacity</h5>
+        <p>
+          We retain our customers with our excellent services not with the
+          binding agreements, try our cloud call center solution and we bet you
+          will become our loyal customer because of our services and 24/7
+          available technical support.
+        </p>
+
+        <h5 class="text-info">No Coding Required</h5>
+        <p>
+          Minimize reliance on development resources or time needed to create,
+          schedule, and send a campaign
+        </p>
+
+        <h5 class="text-info">Voice Support with IVR</h5>
+        <p>
+          Link with Visual Designer to create bi-directional call flows to
+          collect customer feedback, conduct polls, and route calls to agents.
+        </p>
+
+        <h5 class="text-info">Personalize messages</h5>
+        <p>
+          Using templates and user defined variables add personalization and
+          context (e.g. Name, city, etc.)
+        </p>
+
+        <h5 class="text-info">Scheduler</h5>
+        <p>Schedule campaigns to run in future.</p>
+      </div>
+    </div>
+    <div class="container p-5">
+      <div class="row">
+        <div class=" box p-5 col">
+          <i class=" icon1 bi text-danger bi-voicemail"></i>
+          <h3>Programmable IVR</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Build your own interactive voice response (IVR) system in minutes.
+            Route your incoming calls to users, departments, and mobile devices.
+          </p>
+        </div>
+        <div class=" box p-5 col">
+          <i class=" icon1 bi text-success bi-telephone-outbound "></i>
+          <h3 class="mt-2">Call Routing</h3>
+           <hr class="border border-3 border-warning opacity-75" />
+          <p>
+            Interactive voice response, or IVR, routing gives callers the
+            freedom to choose from a predetermined list the department to which
+            they would like to connect.
+            <br />
+            Location-based routing (or geographic routing) identifies a caller's
+            location using his telephone number and routes his call to the most
+            appropriate agent or department based on locality.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container p-4 mb-4 bg-light">
+        <div class="row"><div class="col"><img src="/image/ivr-integration.png" alt=""></div>
+        <div class="col  p-5">
+          <i class=" icon1 bi text-success bi-telephone-outbound mt-3"></i>
+          <h3 class="mt-4">Missed Call</h3>
+          <hr class="border border-3 border-warning opacity-75" />
+          <p>You can publish your unique missed call number in print media, website, app and SMS campaign</p></div>
+    </div>
+    </div>
+     <section id="clients">
+      <div class="container p-5 mt-5">
+        <div class="text-center">
+          <h5 class="text-primary">They Trust us</h5>
+          <h2>Our Prestigious Clients</h2>
+        </div>
+        <div class="section5_content container mb-5">
+          <div class="row line text-center mt-5">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/agasta.png" alt="" width="100%"/>
+            </div>
+            <div class="column col">
+              <img src="/image/apollo.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/smc.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/sinch.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/satya.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/route.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/radiate.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/piramal.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/nsb.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/news18.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/karvy.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/iffco-tokio.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/iffco-kisan.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/hungama.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/healthians.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/go2.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/dr-lal.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/digitech.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/bls.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/apus.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer_content container-fluid">
+          <div class=" d-flex row p-5">
+      <div class="footer_list col">
+        <div class="row">
+            <div class="col ">
+              <ul class="list-unstyled">
+                <h3>Products</h3>
+                <li>Contact Center</li>
+                <li>Solution</li>
+                <li>CPaaS Voice</li>
+                <li>CPaas SMS</li>
+                <li>Platform</li>
+                <li>Unified Communication</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-unstyled">
+                <li>Tracking Solution</li>
+                <li>Cloud Contact Centre</li>
+                <li>CPaaS Whatsapp</li>
+              </ul>
+            </div>
+            <div class=" col">
+              <ul class="list-unstyled">
+                <h3>Quick Links</h3>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">Career</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            </div>
+            </div>
+            <div class="form col">
+              <h4>Subscribe to our newsletter</h4>
+              <p>Monthly digest of what's new and exciting from us.</p>
+               <div class="d-flex">  <input
+                class="form-control me-2 p-2 "
+                type="text"
+                placeholder="Email Address"
+              />
+              <button class="btn btn-warning p-2 ">Subscribe</button></div>
+            
+            </div>
+            </div>
+            </div>
+          
+          <hr class="hr_footer"/>
+          <div class="footer_bottom text-center mt-5 mb-5">
+            <p>© 2024 Novus Connect_clone. All rights reserved.</p>
+            <p></p>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

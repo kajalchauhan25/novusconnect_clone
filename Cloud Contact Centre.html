@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="iSMSMate-sCP.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Cloud Contact Center</title>
+  </head>
+  <body>
+         <nav class="navbar navbar-expand-lg  bg-light sticky-top ">
+      <div class="container-fluid distance">
+        <a class="navbar-brand" href="index.html">
+          <img src="/image/logo (1).png"  alt="logo"/>
+        </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+ <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="product_dropdown nav-item ">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  area-expanded="false" >Products</a>
+  
+   <ul class="dropdown-menu product_item  p-3 container mt-4">
+    <div class="row">
+      <div class="col">
+           <li><h6 class="dropdown-header mb-3 ">Contact Center Solution</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>
+          <li><a class=" text-decoration-none text-warning " href="/iCallMate-cCP.html"><h6>iCallMate-cCP</h6></a></li>
+          <li><i class="nav_icon bi bi-telephone-inbound"></i>
+   <a href="/inbound.html" class="text-decoration-none">Inbound</a></li>
+           <li> <i class="nav_icon bi bi-telephone-outbound"></i>
+   <a href="/outbound.html" class="text-decoration-none">Outbound</a></li>
+           <li> <i class="nav_icon bi bi-voicemail"></i>
+   <a href="" class="text-decoration-none">IVR</a></li>  
+           <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">ACD</a></li>  
+           <li><i class="nav_icon bi bi-person-rolodex"></i>
+   <a href="" class="text-decoration-none">CRM</a></li>  
+           <li> <i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li>
+   </div>
+   <div class="col">
+           <li><h6 class="dropdown-header mb-3">CPaaS Voice</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>  
+           <li><a class="text-decoration-none text-warning" href="/iCallMate-eCP.html"><h6>iCallMate-eCP</h6></a></li>  
+           <li><i class="nav_icon bi bi-telephone-outbound"></i>
+   <a href="" class="text-decoration-none">OBD</a></li>  
+           <li><i class="nav_icon bi bi-voicemail"></i>
+   <a href="" class="text-decoration-none">IVR</a></li>  
+           <li><i class="nav_icon bi bi-telephone-minus"></i>
+   <a href="" class="text-decoration-none">Missed call</a></li>  
+           <li><i class="nav_icon bi bi-hand-index-thumb"></i>
+   <a href="" class="text-decoration-none">Click2Call</a></li>  
+           <li> <i class="nav_icon bi bi-mic"></i>
+   <a href="" class="text-decoration-none">Text to Speech</a></li>  
+           <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div> 
+    <div class="col">
+           <li><h6 class="dropdown-header mb-3">CPaaS SMS</h6></li>
+           <li><hr class="dropdown-divider mb-3"></li>  
+           <li><a class="text-decoration-none text-warning" href="/iSMSMate-sCP.html"><h6>iSMSMate-sCP</h6></a></li> 
+           <li> <i class="nav_icon bi bi-envelope"></i> 
+   <a href="" class="text-decoration-none">Bulk SMS</a></li>  
+           <li> <i class="nav_icon bi bi-chat-square-dots"></i>
+   <a href="" class="text-decoration-none">2 Way SMS</a></li>  
+           <li>  <i class="nav_icon bi bi-link"></i>
+   <a href="" class="text-decoration-none">Smart Link</a></li>  
+           <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+   <div class="col">
+          <li><h6 class="dropdown-header mb-3">Unified Communication</h6></li>
+          <li><hr class="dropdown-divider mb-3"></li>  
+          <li><a class="text-decoration-none text-warning" href="/iUnifyMate-uCP.html"><h6>iUnifyMate-uCP</h6></a></li>  
+          <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">Contact Center Solution</a></li>  
+          <li> <i class="nav_icon bi bi-globe2"></i>
+   <a href="" class="text-decoration-none">Social Media</a></li>  
+          <li> <i class="nav_icon bi bi-envelope-paper"></i>
+    <a href="" class="text-decoration-none">E-mail</a></li>  
+          <li><i class="nav_icon bi bi-card-list"></i>
+   <a href="" class="text-decoration-none">Ticketing System</a></li>  
+          <li><i class="nav_icon bi bi-person-bounding-box"></i>
+   <a href="" class="text-decoration-none">Unified Agent</a></li>  
+          <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+    <div class="col">
+          <li><h6 class="dropdown-header mb-3">Cloud Contact Centre</h6></li>
+          <li><hr class="dropdown-divider mb-3"></li>
+          <li><a  class="text-decoration-none text-warning" href="/Cloud Contact Centre.html"><h6>Cloud Contact Centre</h6></a></li>  
+          <li><i class="nav_icon bi bi-headset"></i>
+   <a href="" class="text-decoration-none">Contact Center Solution</a></li>  
+          <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li> 
+   </div>
+    <div class="col">  
+          <li><h6 class="dropdown-header mb-3">CPaaS WhatsApp</h6></li>
+     <li><hr class="dropdown-divider mb-3"></li>
+     <li><a  class="text-decoration-none text-warning" href="/CPaaS WhatsApp.html"><h6>CPaaS WhatsApp</h6></a></li>
+          <li> <i class="nav_icon bi bi-robot"></i>
+   <a href="" class="text-decoration-none">ChatBot</a></li>  
+     <li><i class="nav_icon bi bi-gear"></i>
+   <a href="" class="text-decoration-none">API's</a></li>
+ 
+   </div>
+   </div> 
+  </ul>
+  </li>
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus.html">ContactUs</a>
+            </li>
+            <li class="nav-item phoneno">
+              <button class="btn btn-warning">+919891332200</button>
+            </li>
+          </ul>
+ </div>
+    </nav>
+      <header>
+      <div class="header">
+        <div class=" main_content container text-white">
+         <div class="row"><div class="head_content col-sm-6"> <h2>Cloud Contact Center</h2></div>
+         <div class="col p-5 mt-5 mb-5 text-dark bg-light">
+                <form class="">
+                  <div class="row">
+                    <div class=" form_content col">
+                    <label class="form-label mt-3 mb-3">Name</label>
+                    <input type="text" class="form-control p-2" placeholder="Full Name"></div>
+                    <div class="col"><label class="form-label mt-3 mb-3">Phone</label>  <input type="text" class="form-control p-2" placeholder="Phone"></div>
+                    </div>
+                    <div class="row"> <div class="col"><label class="form-label mt-3 mb-3">Email</label>  <input type="text" class="form-control p-2" placeholder="name@example.com"></div>
+                      <div class="col"><label class="form-label mt-3 mb-3">Company</label>  <input type="text" class="form-control p-2" placeholder="Company Name"></div></div>
+                    
+                       <div class=" mt-3 g-recaptcha" 
+        data-sitekey="6LfLYvwpAAAAAALkSCWTOpkxMh9X2TN-7hdwOTLh"
+        ></div>
+        <button class="btn btn-warning p-2 mt-3 form-control">Request Demo</button>
+                </form>
+                      </div>
+            
+            </div></div>
+        </div>
+      </div>
+    </header>
+    <main>
+    <div class="container box mt-5 p-5">
+      <div class="row">
+        <div class="col">
+          <img src="/image/cloud-contact-centre.png" alt="" width="100%" />
+        </div>
+        <div class="col p-5 ">
+          <h4 class="text-primary">About</h4>
+          <h2>Cloud Contact Centre</h2>
+          <p>
+            A cloud contact center is the central point in an enterprise, hosted
+            on an Internet server, from which all inbound and outbound customer
+            communications are handled. Cloud contact centers make interactions
+            through voice, email, social media and the web accessible from
+            virtually anywhere.
+          </p>
+          <button class="btn btn-warning p-3">Request a Demo →</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-sm p-5">
+      <div class="col p-5">
+        <h2 class="">How does a cloud contact center work?</h2>
+        <hr class="border border-3 border-warning opacity-75" />
+        <p class="">
+          A cloud contact center provides inbound and outbound voice, text,
+          social media and video communications over a high-speed internet
+          connection. Contact center providers handle all the technical setup,
+          equipment, and maintenance of the servers.
+          <br />
+          Unlike an on-premises PBX, there isn't any telecom hardware to
+          purchase, install, and maintain. Instead, phone calls are established
+          using Voice over Internet Protocol (VoIP) technology.
+          <br />
+          Once you connect the cloud contact center software to your other
+          channels like social media or email, it does all the work. Each
+          interaction is tied to an account and assigned to the right agent to
+          avoid conflicts. Then, a contact center syncs data with your CRM
+          software in the background, so everyone is on the same page.
+          <br />
+          Since a contact center works entirely over the internet, it means you
+          just need to provide workstations, headsets, and an internet
+          connection for your team. Then, when agents log on, they can receive
+          calls, emails, or chat messages. As a result, your brand interacts
+          with customers consistently across various contact methods.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="text-center">Cloud call center and On-Premise differences</h2>
+      <div class="row p-5">
+        <div class="col box text-center p-5">
+           <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-danger">
+            <i class=" text-danger bi bi-motherboard"></i></div>
+          <h4>No Heavy Hardware</h4>
+          <p>
+            Novus's cloud call center software only requires a computer, a
+            headphone and a minimum bandwidth. No heavy hardware fills your
+            office space or lightens your wallet.
+          </p>
+        </div>
+        <div class="col box text-center p-5">
+           <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-primary">
+            <i class=" text-primary bi bi-currency-dollar"></i></div>
+          <h4>No Annual Maintenance Fee</h4>
+          <p>Unlike On-premise Novus's cloud call center software doesn't require any annual maintenance fees, hardware maintenance fees or upgrades which makes it cost efficient.</p>
+        </div>
+        <div class="col box text-center p-5 ">
+           <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-success">
+            <i class=" text-success bi bi-shield-check"></i></div>
+          <h4>Speed with Quality</h4>
+          <p>Novus's cloud call center means speed with quality, it doesn't require long wired connections, it works with minimum bandwidth and still serves the best quality.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col box text-center p-5">
+          <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-info">
+            <i class=" text-info bi bi-emoji-smile"></i></div>
+          <h4>No Disruption in Operations</h4>
+          <p>Our support team work day and night along with you making sure you don't experience any downtime, even if you face any they make it minimal.</p>
+        </div>
+        <div class="col box text-center p-5">
+          <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-warning">
+            <i class=" text-warning bi bi-plugin"></i></div>
+          <h4>Easy to Integrate</h4>
+          <p>With Novus's cloud call center software, you can integrate any CRM or payment gateway.
+
+</p>
+        </div>
+        <div class="col box text-center p-5">
+          <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-danger">
+            <i class=" text-danger bi bi-speedometer2"></i></div>
+          <h4>No Set-up Time</h4>
+          <p>On-premise solution requires complex and long system installation even if it is a very small deployment. With Novus's cloud call center software, you can start calling from day one as it takes only a few minutes to go live.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col box text-center p-5 ">
+          <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-primary">
+            <i class=" text-primary bi bi-shift"></i></div>
+          <h4>Flexibility in Relocation</h4>
+          <p>If you need to relocate your operations, you don't need to restart it again. Novus's call center software gives the flexibility to relocate you with ease plus it also gives the ease to scale and integrate.</p>
+        </div>
+        <div class="col box text-center p-5">
+          <div class="icon bg-opacity-25 text-center p-2 mb-3 bg-success">
+            <i class=" text-success bi bi-laptop"></i></div>
+          <h4>Work from Anywhere</h4>
+          <p>In on premise solutions agents need to be on site to work while with cloud call center software agents can work from anywhere they want be it office or home.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="container p-5">
+        <h4>
+          The most significant difference between call centers and contact
+          centers is how agents interact with customers.
+        </h4>
+        <p class="">
+          Cloud-based call centers handle a large volume of inbound and outbound
+          phone calls. Agents talk with customers over the phone in real time.
+          Since it's in the cloud, it's scalable, and employees can work in the
+          office, remotely, or a hybrid of both.
+          <br />
+          A cloud-based contact center manages inquiries across phone, email,
+          social media, text message, and video. In addition, support agents can
+          view customer data and past interactions. As a result, customers can
+          get support regardless of where they seek it. Agents may reply via an
+          online message or initiate an outbound call with a software-based
+          dialer.<br />
+          The role of a contact center has expanded from fielding customer
+          service inquiries to driving customer success initiatives and
+          equipping salespeople with multichannel tools to engage their leads.
+          Secure data integrations and endless customizations make cloud contact
+          centers the ideal solution for service and sales teams to hit their
+          growth targets.
+        </p>
+      </div>
+    </div>
+    <div class="container bg-light mt-5">
+      <div class="row p-5">
+        <div class="col">
+          <h2>Features of cloud contact center</h2>
+          <hr class="border border-3 border-warning opacity-75" />
+          <ul class="list-unstyled">
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i>
+
+              24/7 super responsive support with dedicated technical support
+              engineer.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i>
+
+              24/7 super responsive support with dedicated technical support
+              engineer.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i> Easy
+              navigation on the dashboard.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i>
+
+              Web based and app based application for both work from office and
+              work from home modules.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i> No
+              installation required, 99.6% uptime.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i>
+
+              No hidden fees for updates, maintenance or technical support.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i> Pay as
+              you use the solution.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i> Real
+              time and fully customized reporting.
+            </li>
+            <li>
+              <i class="list_icon text-info bi bi-check2-square"></i> Open
+              API for easy integration.
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <img src="/image/agent-tracking-flow.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container p-5 ">
+      <h2>Benefits of using cloud</h2>
+      <h4 class="text-info">No Binding Agreements</h4>
+      <p>
+        We retain our customers with our excellent services not with the binding
+        agreements, try our cloud call center solution and we bet you will
+        become our loyal customer because of our services and 24/7 available
+        technical support.
+      </p>
+      <h4 class="text-info">No License Renewal</h4>
+      <p>
+        Be it on-prem or cloud many other service providers ask for annual
+        renewal fees other than them we don't take such charge.
+      </p>
+      <h4 class="text-info">24/7 Tech Support</h4>
+      <p>
+        We know even a minute of downtime affects your business that's why we
+        offer a dedicated support team for our every solution.
+      </p>
+      <h4 class="text-info">No Hidden Cost Involved</h4>
+      <p>
+        Novus value honesty, we don't put any hidden charge later or take
+        unnecessary charges later on we discuss everything transparently.
+      </p>
+      <h4 class="text-info">Scalability</h4>
+      <p>
+        Novus's infrastructure offers a pay-as-you-grow model which provides you
+        with utmost scalability. This means you can upsize and downsize 10 times
+        your operation in no time.
+      </p>
+      <h4 class="text-info">Fast and Easy Onboarding</h4>
+      <p>
+        You can start calling from day one as we onboard our customer the same
+        day on a cloud call center solution. With our agent friendly interface
+        your agents can start taking calls from day one.
+      </p>
+      <h4 class="text-info">Work from Anywhere</h4>
+      <p>
+        Agents can login from anywhere using the internet connection and don't
+        need to sit in a particular premise. This gave freedom to business as
+        well as agents.
+      </p>
+      <h4 class="text-info">Contact</h4>
+      <p>
+        Centre Solution Manage the inbound, outbound or blended call center more
+        efficiently with our call center software for giving better experience
+        to your customer as well as ease to your customer engagement team.
+      </p>
+      <div class="container bg-light mt-5">
+        <div class="row">
+          <div class="col">
+            <img src="/image/centralized-monitoring-2.png" alt="" />
+          </div>
+          <div class="col  p-5">
+            <div class=" icon1 bg-success bg-opacity-25 text-center p-2"> <i class=" text-success bi bi-headset"></i></div>
+           
+            <h2>Contact Centre Solution</h2>
+            <p>
+              Manage the inbound, outbound or blended call center more
+              efficiently with our call center software for giving better
+              experience to your customer as well as ease to your customer
+              engagement team.
+            </p><button class="btn btn-warning p-3">Learn More →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="clients">
+      <div class="container p-5 mt-5">
+        <div class="text-center">
+          <h5 class="text-primary">They Trust us</h5>
+          <h2>Our Prestigious Clients</h2>
+        </div>
+        <div class="section5_content container mb-5">
+          <div class="row line text-center mt-5">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/agasta.png" alt="" width="100%"/>
+            </div>
+            <div class="column col">
+              <img src="/image/apollo.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/smc.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/sinch.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/satya.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/route.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/radiate.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/piramal.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/nsb.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/news18.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/karvy.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/iffco-tokio.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row line text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/iffco-kisan.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/hungama.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/healthians.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/go2.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+          <div class="row text-center">
+            <div class="column col"></div>
+            <div class="column col">
+              <img src="/image/dr-lal.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/digitech.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/bls.png" alt="" width="100%" />
+            </div>
+            <div class="column col">
+              <img src="/image/apus.png" alt="" width="100%" />
+            </div>
+            <div class="column col"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+     <footer>
+        <div class="footer_content container-fluid">
+          <div class=" d-flex row p-5">
+      <div class="footer_list col">
+        <div class="row">
+            <div class="col ">
+              <ul class="list-unstyled">
+                <h3>Products</h3>
+                <li>Contact Center</li>
+                <li>Solution</li>
+                <li>CPaaS Voice</li>
+                <li>CPaas SMS</li>
+                <li>Platform</li>
+                <li>Unified Communication</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-unstyled">
+                <li>Tracking Solution</li>
+                <li>Cloud Contact Centre</li>
+                <li>CPaaS Whatsapp</li>
+              </ul>
+            </div>
+            <div class=" col">
+              <ul class="list-unstyled">
+                <h3>Quick Links</h3>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white">Career</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            </div>
+            </div>
+            <div class="form col">
+              <h4>Subscribe to our newsletter</h4>
+              <p>Monthly digest of what's new and exciting from us.</p>
+               <div class="d-flex">  <input
+                class="form-control me-2 p-2 "
+                type="text"
+                placeholder="Email Address"
+              />
+              <button class="btn btn-warning p-2 ">Subscribe</button></div>
+            
+            </div>
+            </div>
+            </div>
+          
+          <hr class="hr_footer"/>
+          <div class="footer_bottom text-center mt-5 mb-5">
+            <p>© 2024 Novus Connect_clone. All rights reserved.</p>
+            <p></p>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
