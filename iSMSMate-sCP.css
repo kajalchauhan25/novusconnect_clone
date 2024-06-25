@@ -20,7 +20,6 @@ i {
 }
 #navbarNavDropdown {
  font-size: larger;
-
 }
 .distance{
   gap:400px
@@ -212,4 +211,7 @@ hr {
   width: 100%;
   margin: 0px 15px  !important;
   }
+  .distance{
+  gap:0px
+}
 }
